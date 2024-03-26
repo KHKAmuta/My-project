@@ -1050,7 +1050,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv.2
+  m_Text: Lv.1
 --- !u!222 &625505438
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1384,6 +1384,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1786915622}
         m_TargetAssemblyTypeName: UI, Assembly-CSharp
         m_MethodName: OnItemSelect
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1786915622}
+        m_TargetAssemblyTypeName: UI, Assembly-CSharp
+        m_MethodName: OnLevelUP
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2059,7 +2071,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv.2
+  m_Text: Lv.1
 --- !u!222 &1629790460
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2167,6 +2179,18 @@ MonoBehaviour:
       - m_Target: {fileID: 1786915622}
         m_TargetAssemblyTypeName: UI, Assembly-CSharp
         m_MethodName: OnItemSelect
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1786915622}
+        m_TargetAssemblyTypeName: UI, Assembly-CSharp
+        m_MethodName: OnLevelUP
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2375,6 +2399,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ad9f70d84c2106648bf0ccc17e0d71d2, type: 2}
   - {fileID: 11400000, guid: c95fb2bc3a30ca04eb124d15be68f130, type: 2}
   - {fileID: 11400000, guid: 96444e22d6111f34b84188f4ab670423, type: 2}
+  itemLevel: []
 --- !u!1 &1851601253
 GameObject:
   m_ObjectHideFlags: 0
@@ -2521,6 +2546,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1786915622}
+        m_TargetAssemblyTypeName: UI, Assembly-CSharp
+        m_MethodName: OnLevelUP
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1857173058
 GameObject:
   m_ObjectHideFlags: 0
@@ -2592,7 +2629,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Lv.2
+  m_Text: Lv.1
 --- !u!222 &1857173061
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -19,4 +19,6 @@ public class ItemData : ScriptableObject
 
     public string Desc { get { return desc; } }
     [SerializeField] private string desc;
+
+
 }

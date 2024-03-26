@@ -15,6 +15,8 @@ public class Player : MonoBehaviour
         public float Speed { get; set; }
         public float FireDelay { get; set; }
         public float Power { get; set; }
+
+        
     }
 
     public enum State
@@ -42,6 +44,8 @@ public class Player : MonoBehaviour
     private Transform target;
 
     private float fireTimer = 0f;
+
+    
 
     void Start()
     {

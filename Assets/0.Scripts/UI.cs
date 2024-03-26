@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using DG.Tweening;
 using System.Linq;
 
+
 public class UI : MonoBehaviour
 {
     [System.Serializable]
@@ -68,6 +69,19 @@ public class UI : MonoBehaviour
         public Text level;
         public Text title;
         public Text desc;
+
+        public int itemLevel
+        {
+            get { return itemlevel; }
+            set
+            {
+                itemlevel = value;
+                level.text = $"Lv.{itemlevel}";
+
+            }
+        }
+        private int itemlevel;
+
     }
     [SerializeField] private List<LevelUP> levelUpUIs;
     [SerializeField] private GameObject levelUpPopup;
@@ -89,12 +103,15 @@ public class UI : MonoBehaviour
 
     private List<ItemData> levelUpItemData = new List<ItemData>();
 
+   [SerializeField] private Text[] itemLevel;
+
     void Start()
     {
         topUI.maxExp = 10;
         topUI.Exp = 0;
         topUI.Level = 1;
         topUI.KillCount = 0;
+
     }
 
     void Update()
@@ -148,9 +165,16 @@ public class UI : MonoBehaviour
         }
     }
 
+    public void OnLevelUP(int index)
+    {
+        LevelUP ui = levelUpUIs[index];
+        ui.itemLevel++;
+    }
+
     public void OnItemSelect(int index)
     {
         ItemData data = levelUpItemData[index];
+        LevelUP ui = levelUpUIs[index];
 
         switch (data.Type)
         {
@@ -167,7 +191,7 @@ public class UI : MonoBehaviour
                 GameManager.instance.P.data.Speed += GameManager.instance.P.data.Speed * 0.1f;
                 break;
             case ItemType.Heal:
-                GameManager.instance.P.data.HP = 100;
+                GameManager.instance.P.data.HP = 50;
                 break;
         }
     }
