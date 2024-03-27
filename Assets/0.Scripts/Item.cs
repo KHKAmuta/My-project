@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Item
 {
-    public ItemType Type { get; private set; }
-    public int Level { get; private set; }
+    public ItemType Type { get; set; }
+    public int Level { get; set; }
 
     public Item(ItemType type, int level = 1)
     {
@@ -15,6 +15,9 @@ public class Item
 
     public void LevelUp()
     {
-        Level++;
+        if(Level < 6)
+        {
+            Level++;
+        }
     }
 }

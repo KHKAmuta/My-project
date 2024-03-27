@@ -180,6 +180,24 @@ public class UI : MonoBehaviour
         ItemData data = levelUpItemData[index];
         ItemType type = data.Type;
 
+        switch (data.Type)
+        {
+            case ItemType.Bullet_Att:
+                break;
+            case ItemType.Bullet_Spd:
+                GameManager.instance.P.data.FireDelay -= GameManager.instance.P.data.FireDelay * 0.1f;
+                break;
+            case ItemType.Bible:
+                GameManager.instance.P.BibleAdd();
+                break;
+            case ItemType.Boots:
+                GameManager.instance.P.data.Speed += GameManager.instance.P.data.Speed * 0.1f;
+                break;
+            case ItemType.Heal:
+                GameManager.instance.P.data.HP = 100;
+                break;
+        }
+
         GameManager.instance.LevelUpItem(type); // 해당 아이템의 레벨 증가
     }
 

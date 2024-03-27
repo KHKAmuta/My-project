@@ -13,7 +13,7 @@ public class GreenZombie : Monster
     {
         data.Speed = 1f;
         data.Power = 5;
-        data.HP = 50;
+        data.HP = 20;
         data.AttDelay = 1f;
 
         base.Init();

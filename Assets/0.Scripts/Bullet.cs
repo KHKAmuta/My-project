@@ -23,6 +23,6 @@ public class Bullet : MonoBehaviour
 
     public void SetPower(float power)
     {
-        this.Power = power;
+        Power = power;
     }
 }

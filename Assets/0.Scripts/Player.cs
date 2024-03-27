@@ -69,7 +69,7 @@ public class Player : MonoBehaviour
         data.HP = 100;
         data.MaxHP = 100;
         data.Speed = 4f;
-        data.FireDelay = 0.8f;
+        data.FireDelay = 0.5f;
         data.Power = 10f;
 
         switch (index)
