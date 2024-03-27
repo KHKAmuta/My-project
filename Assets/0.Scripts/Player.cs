@@ -16,7 +16,16 @@ public class Player : MonoBehaviour
         public float FireDelay { get; set; }
         public float Power { get; set; }
 
-        
+        public int itemLevel
+        {
+            get { return itemlevel; }
+            set
+            {
+                itemlevel = value;
+            }
+        }
+        private int itemlevel;
+
     }
 
     public enum State

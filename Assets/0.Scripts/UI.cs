@@ -70,17 +70,7 @@ public class UI : MonoBehaviour
         public Text title;
         public Text desc;
 
-        public int itemLevel
-        {
-            get { return itemlevel; }
-            set
-            {
-                itemlevel = value;
-                level.text = $"Lv.{itemlevel}";
-
-            }
-        }
-        private int itemlevel;
+       
 
     }
     [SerializeField] private List<LevelUP> levelUpUIs;
@@ -165,16 +155,14 @@ public class UI : MonoBehaviour
         }
     }
 
-    public void OnLevelUP(int index)
-    {
-        LevelUP ui = levelUpUIs[index];
-        ui.itemLevel++;
-    }
+    
 
     public void OnItemSelect(int index)
     {
         ItemData data = levelUpItemData[index];
-        LevelUP ui = levelUpUIs[index];
+
+        //ItemType itemType = (ItemType)index;
+        //GameManager.instance.LevelUpItem(itemType);
 
         switch (data.Type)
         {

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using static UnityEditor.Progress;
 
 public enum GameState
 {
@@ -21,7 +22,45 @@ public enum ItemType
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    
+
+    //private Dictionary<ItemType, Item> items = new Dictionary<ItemType, Item>();
+
+    //private void InitializeItems()
+    //{
+    //    // 각 아이템을 초기화하고 딕셔너리에 추가
+    //    items.Add(ItemType.Bullet_Att, new Item(ItemType.Bullet_Att));
+    //    items.Add(ItemType.Bullet_Spd, new Item(ItemType.Bullet_Spd));
+    //    items.Add(ItemType.Bible, new Item(ItemType.Bible));
+    //    items.Add(ItemType.Heal, new Item(ItemType.Heal));
+    //    items.Add(ItemType.Boots, new Item(ItemType.Boots));
+    //    // 나머지 아이템들도 추가
+    //}
+
+    //public Item GetItem(ItemType type)
+    //{
+    //    // 아이템 딕셔너리에서 해당 타입의 아이템 반환
+    //    if (items.ContainsKey(type))
+    //    {
+    //        return items[type];
+    //    }
+    //    else
+    //    {
+    //        Debug.LogError("Item not found: " + type);
+    //        return null;
+    //    }
+    //}
+
+    //public void LevelUpItem(ItemType type)
+    //{
+    //    // 해당 아이템의 레벨 증가
+    //    Item item = GetItem(type);
+    //    if (item != null)
+    //    {
+    //        item.LevelUp();
+    //        // UI에 업데이트 메시지를 보내줄 수 있음
+    //    }
+    //}
+
     [System.Serializable]
     public class CharSprite
     {
@@ -68,6 +107,7 @@ public class GameManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            //InitializeItems();
             DontDestroyOnLoad(gameObject);
         }
     }

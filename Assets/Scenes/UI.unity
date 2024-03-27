@@ -2546,9 +2546,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1786915622}
+      - m_Target: {fileID: 11500000, guid: f9ed361578602e54088285f8a73b6d0a, type: 3}
         m_TargetAssemblyTypeName: UI, Assembly-CSharp
-        m_MethodName: OnLevelUP
+        m_MethodName: 
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
