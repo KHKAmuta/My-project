@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rudgn\\Desktop\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\charselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\charselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,11 +15,19 @@
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\maintitleani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\maintitleani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\rudgn\\desktop\\my project\\assets\\0.scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|c:\\users\\rudgn\\desktop\\my project\\assets\\0.scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,16 +35,8 @@
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\maintitleani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\maintitleani.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\item\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\item\\exp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|C:\\Users\\rudgn\\Desktop\\My project\\assets\\0.scripts\\charselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\0.scripts\\charselect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Item.cs",
               "DocumentMoniker": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\Item.cs",
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\Item.cs",
@@ -58,25 +58,24 @@
               "RelativeToolTip": "Assets\\0.Scripts\\Item.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T13:57:19.927Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-26T13:57:19.927Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Bullet.cs",
               "DocumentMoniker": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\Bullet.cs",
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\Bullet.cs",
               "ToolTip": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\Bullet.cs",
               "RelativeToolTip": "Assets\\0.Scripts\\Bullet.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-26T09:49:59.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\ItemData.cs",
@@ -94,26 +93,27 @@
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\0.Scripts\\GameManager.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAgwDwAAAALAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAewIIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T12:43:50.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "CharSelect.cs",
               "DocumentMoniker": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\CharSelect.cs",
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\CharSelect.cs",
               "ToolTip": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\CharSelect.cs",
               "RelativeToolTip": "Assets\\0.Scripts\\CharSelect.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAYwD8AAAAdAAAA",
+              "ViewState": "AQIAACcAAAAAAAAAAAAYwA8AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:27:39.096Z"
+              "WhenOpened": "2024-03-25T12:27:39.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Exp.cs",
               "DocumentMoniker": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\Item\\Exp.cs",
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\Item\\Exp.cs",
@@ -125,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "MainTitleAni.cs",
               "DocumentMoniker": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\MainTitleAni.cs",
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\MainTitleAni.cs",
@@ -133,17 +133,18 @@
               "RelativeToolTip": "Assets\\0.Scripts\\MainTitleAni.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:23:37.625Z"
+              "WhenOpened": "2024-03-25T12:23:37.625Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\Player.cs",
               "ToolTip": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\Player.cs",
               "RelativeToolTip": "Assets\\0.Scripts\\Player.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAkwBYAAAANAAAA",
+              "ViewState": "AQIAACkAAAAAAAAAAAAnwDwAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T12:22:37.4Z",
               "EditorCaption": ""
@@ -156,7 +157,7 @@
               "RelativeDocumentMoniker": "Assets\\0.Scripts\\UI.cs",
               "ToolTip": "C:\\Users\\rudgn\\Desktop\\My project\\Assets\\0.Scripts\\UI.cs",
               "RelativeToolTip": "Assets\\0.Scripts\\UI.cs",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAYwJ0AAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T12:20:39.79Z",
               "EditorCaption": ""

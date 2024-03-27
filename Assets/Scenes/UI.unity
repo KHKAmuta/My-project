@@ -2399,7 +2399,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: ad9f70d84c2106648bf0ccc17e0d71d2, type: 2}
   - {fileID: 11400000, guid: c95fb2bc3a30ca04eb124d15be68f130, type: 2}
   - {fileID: 11400000, guid: 96444e22d6111f34b84188f4ab670423, type: 2}
-  itemLevel: []
+  itemLevel:
+  - {fileID: 625505437}
+  - {fileID: 1857173060}
+  - {fileID: 1629790459}
 --- !u!1 &1851601253
 GameObject:
   m_ObjectHideFlags: 0

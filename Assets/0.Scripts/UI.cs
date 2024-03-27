@@ -5,7 +5,6 @@ using UnityEngine.UI;
 using DG.Tweening;
 using System.Linq;
 
-
 public class UI : MonoBehaviour
 {
     [System.Serializable]
@@ -70,8 +69,22 @@ public class UI : MonoBehaviour
         public Text title;
         public Text desc;
 
-       
+        public ItemType ItemType { get; private set; } // 아이템 타입 추가
 
+        public void Initialize(ItemType type, int lv)
+        {
+            ItemType = type;
+            itemLevel = lv;
+            level.text = $"Lv.{itemLevel}";
+        }
+
+        public void UpdateLevel(int lv)
+        {
+            itemLevel = lv;
+            level.text = $"Lv.{itemLevel}";
+        }
+
+        private int itemLevel;
     }
     [SerializeField] private List<LevelUP> levelUpUIs;
     [SerializeField] private GameObject levelUpPopup;
@@ -93,7 +106,7 @@ public class UI : MonoBehaviour
 
     private List<ItemData> levelUpItemData = new List<ItemData>();
 
-   [SerializeField] private Text[] itemLevel;
+    [SerializeField] private Text[] itemLevel;
 
     void Start()
     {
@@ -149,39 +162,25 @@ public class UI : MonoBehaviour
             LevelUP ui = levelUpUIs[i];
             ItemData data = levelUpItemData[i];
 
+            ui.Initialize(data.Type, GameManager.instance.GetItem(data.Type).Level); // 아이템 레벨 초기화
             ui.icon.sprite = data.Icon;
             ui.title.text = data.Title;
             ui.desc.text = data.Desc;
         }
     }
 
-    
+    public void OnLevelUP(int index)
+    {
+        LevelUP ui = levelUpUIs[index];
+        ui.UpdateLevel(GameManager.instance.GetItem(ui.ItemType).Level); // UI에서 아이템 레벨 업데이트
+    }
 
     public void OnItemSelect(int index)
     {
         ItemData data = levelUpItemData[index];
+        ItemType type = data.Type;
 
-        //ItemType itemType = (ItemType)index;
-        //GameManager.instance.LevelUpItem(itemType);
-
-        switch (data.Type)
-        {
-            case ItemType.Bullet_Att:
-                GameManager.instance.P.data.Power += 10;
-                break;
-            case ItemType.Bullet_Spd:
-                GameManager.instance.P.data.FireDelay -= GameManager.instance.P.data.FireDelay * 0.1f;
-                break;
-            case ItemType.Bible:
-                GameManager.instance.P.BibleAdd();
-                break;
-            case ItemType.Boots:
-                GameManager.instance.P.data.Speed += GameManager.instance.P.data.Speed * 0.1f;
-                break;
-            case ItemType.Heal:
-                GameManager.instance.P.data.HP = 50;
-                break;
-        }
+        GameManager.instance.LevelUpItem(type); // 해당 아이템의 레벨 증가
     }
 
     public void DeadTitleStart()
